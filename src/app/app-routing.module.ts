@@ -5,6 +5,7 @@ import { MessiPageComponent } from './messi/messi-page/messi-page.component';
 import { CristianoPageComponent } from './cristiano/cristiano-page/cristiano-page.component';
 
 const routes: Routes = [
+  {path:'', component:HomePageComponent},
   {path:'Home', component:HomePageComponent},
   {path:'Messi', component: MessiPageComponent},
   {path:'Cristiano', component: CristianoPageComponent}
